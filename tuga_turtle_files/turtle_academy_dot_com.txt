@@ -1,0 +1,356 @@
+; move to starting position
+penup
+back 5
+lt 90
+forward 390
+rt 90
+; set color to red for "R"
+setpencolor 4
+pendown
+forward 200
+rt 90
+forward 75
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 75
+rt 180
+forward 60
+rt 60
+forward 100
+; end "R"
+lt 60
+penup
+forward 50
+lt 90
+forward 200
+; set color to blue for "U"
+pendown
+setpencolor 1
+rt 180
+forward 70
+back 70
+forward 150
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 150
+; end "U"
+penup
+rt 90
+forward 50
+; set color to green for "B"
+setpencolor 2
+pendown
+rt 90
+forward 200
+back 200
+lt 90
+forward 75
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 12
+rt 15
+forward 75
+rt 180
+forward 75
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 75
+; end "R"
+penup
+rt 180
+forward 140
+lt 90
+forward 200
+; set color to yellow for "Y"
+setpencolor 6
+pendown
+rt 150
+forward 125
+lt 120
+forward 125
+rt 180
+forward 125
+lt 30
+forward 110
+; end "Y"
+penup
+rt 90
+forward 520
+lt 90
+forward 220
+rt 180
+; set color to red for "R"
+setpencolor 4
+pendown
+forward 200
+rt 90
+forward 75
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 15
+rt 15
+forward 75
+rt 180
+forward 60
+rt 60
+forward 100
+; end "R"
+lt 60
+penup
+forward 50
+lt 90
+forward 200
+; set color to blue for "U"
+pendown
+setpencolor 1
+rt 180
+forward 70
+back 70
+forward 150
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 15
+lt 15
+forward 150
+; end "U"
+penup
+
+rt 90
+forward 50
+rt 90
+
+
+
+;preamble
+; move to starting position
+;penup
+;back 20
+;lt 90
+;forward 290
+;rt 90
+;forward 200
+;rt 180
+
+;end preamble
+
+; set color to green for "L"
+setpencolor 2
+pendown
+forward 210
+lt 90 
+forward 100
+; end "L"
+penup
+forward 50
+lt 90
+; set color to yellow for "E"
+setpencolor 6
+pendown
+forward 200
+rt 90
+forward 100
+back 100
+rt 90
+forward 100
+lt 90 
+forward 100
+back 100
+rt 90
+forward 100
+lt 90 
+forward 100
+; end "E"
+penup
+forward 50
+lt 90
+forward 200
+rt 90
+forward 100
+rt 180
+
+
+; set color to black for "S"
+setpencolor 0
+pendown
+forward 60
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 14
+lt 15
+forward 40
+
+
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 14
+rt 15
+forward 70
+
+; end "S"
+
+
+
+
+
+
+
+
+
