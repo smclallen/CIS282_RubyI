@@ -33,12 +33,14 @@ puts "\n" # Print a newline to visually separate the input section from the outp
 print "Employee Name: #{employee_name}
 Hours Worked: #{hours_per_week}
 Pay Rate: $#{hourly_pay_rate}"
-puts "\nGross Pay: $" + gross_pay.round(2, half: :down).to_s
+puts "\nGross Pay: $" + gross_pay.round(2).to_s
+#puts "gross_pay is type: " + gross_pay.class.to_s
+
 puts "Deductions:"
-print "\tFederal Withholding (#{federal_tax_rate * 100}%): $" + federal_withholding.round(2, half: :down).to_s
-print "\n\tState Withholding (#{state_tax_rate * 100}%): $" + state_withholding.round(2, half: :down).to_s
-print "\n\tTotal Deduction: $" + total_deduction.round(2, half: :down).to_s
-print "\nNet Pay: $" + net_pay.round(2, half: :down).to_s + "\n"
+print "\tFederal Withholding (#{federal_tax_rate * 100}%): $" + federal_withholding.round(2).to_s
+print "\n\tState Withholding (#{state_tax_rate * 100}%): $" + state_withholding.round(2).to_s
+print "\n\tTotal Deduction: $" + total_deduction.round(2).to_s
+print "\nNet Pay: $" + net_pay.round(2).to_s + "\n"
 
 =begin # Testing section use copy/paste
 Smith
@@ -48,8 +50,6 @@ Smith
 0.09
 =end
 
-# TODO test $11.50 per hour
-# TODO "Don't worry about rounding looks like a challenge to me!"
 # TODO Contemplate why rounding down. I seem to recall something with BigNum or some kind of bank rounding rule?
 
 =begin #My notes on my process

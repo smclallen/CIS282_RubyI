@@ -1,3 +1,13 @@
+############################################################
+#
+# Name:			    Kristen Shelly McLallen
+# Assignment:	  	Tuga Turtle Graphics
+# Date:			    01/20/2018
+# Class:		    CIS 282
+# Description:		A program to simulate using apple logo from my childhood to write Ruby Rules!
+#
+############################################################
+
 #Assume starting anywhere on page is okay
 # set color to red for "R"
 color red
